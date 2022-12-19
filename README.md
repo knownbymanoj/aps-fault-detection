@@ -13,3 +13,9 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+Git verison
+```bash
+git --version
+```
+
