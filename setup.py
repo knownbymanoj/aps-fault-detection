@@ -1,3 +1,4 @@
+# this is used to convert your code into library format
 from setuptools import find_packages,setup
 
 from typing import List
@@ -17,6 +18,6 @@ setup(
     version="0.0.1",
     author="Manoj Kumar Nagabandi",
     author_email="manojnagabandi@gmail.com",
-    packages= find_packages(),
+    packages= find_packages(), # to sreach for __init.py__ since we want to ue our code as a library 
     install_requires=get_requirements(),
 )
